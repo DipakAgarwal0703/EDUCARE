@@ -1,2 +1,2 @@
 # EDUCARE
-A website which is specifically designed to find about the present B.tech and Diploma colleges in West-Bengal
+Welcome to EDUCARE , your one-stop destination for all things related to B.Tech and Diploma colleges in West Bengal. In a rapidly evolving educational landscape, staying informed and making the right choices for your future is crucial. Our website is designed with the sole purpose of assisting present B.Tech and Diploma students in West Bengal to navigate this complex journey seamlessly.
