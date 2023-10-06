@@ -1,0 +1,281 @@
+/********** Common CSS Starts **********/  
+
+* {
+    margin:0px;
+    padding:0px;
+    /* background: fixed; */
+    scroll-behavior: smooth;
+}
+html, body {
+    font-family: Roboto, sans-serif, arial;
+    font-size: 14px;
+    color: #242424;
+}
+.container {
+    width: 1200px;
+    margin:0px auto;
+}
+.main-section {
+    width: 100%;
+    float: left;
+    padding:50px 0px 40px 0px;
+}
+.heading {
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px solid #81b8b9;
+    margin-bottom:25px;
+    color: #81b8b9;
+}
+/********** Common CSS Ends **********/
+/********** Main Menu CSS Starts **********/  
+/*  Add a black background color to the top navigation bar */ 
+.topnav {
+  overflow: hidden;
+  background-color: #1c1a1a;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #757484;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #292c3a;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+/*.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}*/
+body 
+  .center-text {
+    text-align: center;
+    padding: 20px;
+    padding-top: 2%;
+    font-family: cursive;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  
+  .search-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  #searchInput {
+    padding: 8px;
+    width: 300px;
+  }
+  
+  .suggestions {
+    border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  .suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #1e1313;
+  }
+}
+/*About us section*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #af8ff4;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(234, 229, 229);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #100d0d;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/********** Main Menu CSS Ends **********/
+/********** Footer CSS Starts **********/  
+.footer {
+    background-color:#7b85aa;
+    padding:50px 10px;
+    width:100%;
+    float:left;
+}
+.footer-sect {
+    width:33%;
+    float:left;
+}
+.footer-sect h2 {
+    color:#fff;
+    margin-bottom: 20px;
+}
+.footer-sect p {
+    color: #fff;
+    line-height: 22px;
+    /* padding:0px 30px 20px 0px; */
+}
+.footer-menu li {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+.footer-menu li a {
+    color:#fff;
+    text-decoration: none;
+}
+.footer-contact li {
+    margin-bottom:15px;
+    list-style: none;
+    color: #fff;
+}
+/********** Footer CSS Ends **********/
+
+/*******Dropdown styling starts*******/
+.dd {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  margin: 30px;
+  font-size: 17px;
+  font-family: "Georgia";
+  position: absolute;
+  align-items: center;
+
+
+}
+
+button {
+  cursor: pointer;
+  width:60px;
+}
+
+.one
+{
+  border: 2px solid rgb(28, 28, 28); 
+  border-radius: 5px; 
+  padding:3px;
+  font-size: 15px;
+  font-family: "Georgia";
+  cursor: pointer;
+  width: auto;
+}
+
+.btn 
+{
+  border: 2px solid rgb(28, 28, 28); 
+  border-radius: 4px; 
+  width: auto;
+  padding:3px;
+  font-size: 15px;
+  font-family: "Georgia";
+}
+
+/*******Dropdown styling ends********/
